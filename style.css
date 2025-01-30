@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(240, 78%, 98%) !important;
+  background: url(images/bg-top.svg) no-repeat right top, url(images/bg-bottom.svg) no-repeat left bottom;
+}
+@media (max-width: 844px) {
+  body {
+    background: url(images/bg-top.svg) no-repeat right top / 3rem 15rem;
+  }
+}
+main {
+  margin: 6rem auto 2rem auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+@media (max-width: 1153px) {
+  main {
+    width: 90%;
+  }
+}
+main h1 {
+  color: hsl(233, 13%, 49%);
+}
+main .toggle-container {
+  margin-bottom: 5rem;
+}
+@media (max-width: 375px) {
+  main .toggle-container {
+    flex-direction: column;
+  }
+}
+main .toggle-container label {
+  color: hsl(234, 14%, 74%);
+}
+main .toggle-container .toggle {
+  background: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  width: 80px;
+  height: 40px;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+main .toggle-container .toggle:hover {
+  background: linear-gradient(to bottom, hsl(236, 72%, 89%), hsl(237, 63%, 74%));
+}
+main .toggle-container .toggle:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  width: 28px;
+  height: 28px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+main .toggle-container .toggle.active:before {
+  transform: translateX(-40px);
+}
+@media (max-width: 844px) {
+  main .pricing-card {
+    gap: 5rem;
+  }
+}
+main .pricing-card .card {
+  width: 24rem;
+  height: fit-content;
+}
+@media (max-width: 844px) {
+  main .pricing-card .card {
+    width: 100%;
+  }
+}
+main .pricing-card .card h4 {
+  color: hsl(232, 13%, 33%);
+}
+main .pricing-card .card .price {
+  color: hsl(232, 13%, 33%);
+  font-size: 4.5rem;
+}
+main .pricing-card .card hr,
+main .pricing-card .card p {
+  color: hsl(233, 13%, 49%);
+}
+main .pricing-card .card button {
+  border: none;
+  background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  transition: all 0.3s ease;
+}
+main .pricing-card .card button:hover {
+  color: hsl(237, 63%, 64%) !important;
+  background: #fff;
+  border: 1px solid hsl(232, 13%, 33%);
+}
+main .pricing-card .professional {
+  background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%)) !important;
+  height: 38rem;
+  margin-top: -2rem;
+}
+main .pricing-card .professional hr {
+  color: hsl(240, 78%, 98%);
+}
+main .pricing-card .professional button.professional-btn {
+  background: #fff;
+  color: hsl(237, 63%, 64%);
+  transition: all 0.3s ease;
+}
+main .pricing-card .professional button.professional-btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff !important;
+}
