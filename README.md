@@ -1,4 +1,4 @@
-# Frontend Mentor - Pricing Component with Toggle solution
+# Frontend Mentor - Pricing Component with Toggle Solution
 
 This is a solution to the [Pricing component with toggle challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/pricing-component-with-toggle-ljLC5NpBbI)
+- [Live Site](https://yashi-singh-9.github.io/Pricing-Component-with-Toggle/)
 
 ---
 
